@@ -58,7 +58,7 @@ ul {
 
 [class*='header-subpaginas'] {
     width: 100%;
-    height: 60vh;
+    height: 50rem;
     position: relative;
     background: #f5f8fd url(../img/intro-bg.jpg) center top no-repeat;
     background-size: cover;
@@ -66,20 +66,25 @@ ul {
 
 @media (min-width: 768px) {
     .header-subpaginas {
-        height: 5vh;
+        height: 5rem;
     }
 }
 
 [class*='--subpaginas'] {
     font-family: var(--fuentePrincipal);
     font-weight: 700;
-    margin: 0 auto;
+    margin: 5rem 5rem 0;
     padding: 0;
     color: var(--primario);
     text-align: center;
     font-size: 3.4rem;
-    margin-bottom: 3rem;
     max-width: 30rem;
+}
+
+@media (min-width: 768px) {
+    [class*='--subpaginas'] {
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 768px) {
@@ -642,7 +647,7 @@ ul {
 
 @media (min-width: 768px) {
     .servicios-servicio {
-        margin: 0 10px 40px 30px;
+        margin: 2rem;
     }
 }
 
@@ -1267,7 +1272,7 @@ q {
 
 .talleres-contenido {
     background-color: #f5f8fd;
-    padding: 10rem 0 4rem 0;
+    padding: 5rem 0 4rem 0;
     color: #444;
 }
 
@@ -1338,7 +1343,7 @@ q {
     position: relative;
     overflow: hidden;
     border-radius: 3rem;
-    margin: 0 1rem 4rem 1rem;
+    margin: 2rem;
     background: #fff;
     box-shadow: 0 1rem 2.9rem 0 rgb(68 88 144 / 10%);
     transition: all 0.3s ease-in-out;
@@ -1369,25 +1374,43 @@ q {
     .taller-grid {
         padding: 5rem 0;
         flex-direction: row;
-        gap: 5rem;
+        gap: 3rem;
     }
-    .taller-im {
+
+    /*.taller-im {
         padding: 0 2rem;
+    }*/
+}
+
+@media (min-width: 990px) {
+    .taller-grid {
+        gap: 9rem;
     }
 }
 
 .taller-imagen {
     margin: 0 auto;
     border-radius: 1.5rem;
-    max-width: 100%;
+    max-width: 28rem;
     height: auto;
 }
 
 @media (min-width: 768px) {
     .taller-imagen {
-        margin: 5rem 0 0 10rem;
-        max-width: 40rem;
+        margin: 2rem;
+        max-width: 31rem;
     }
+}
+
+@media (min-width: 990px) {
+    .taller-imagen {
+        max-width: 45rem;
+        margin: 7rem;
+    }
+}
+.taller-info {
+    padding: 0 2rem;
+    flex: 0 0 50%;
 }
 
 @media (min-width: 768px) {
@@ -1403,10 +1426,8 @@ q {
 
 .taller-titulo {
     font-size: 2rem;
-}
-
-.taller-parrafo {
-    text-align: justify;
+    color: black;
+    padding: 2rem 0;
 }
 
 .taller-enlace {
