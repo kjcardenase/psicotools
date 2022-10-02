@@ -11,8 +11,8 @@ html {
     box-sizing: border-box;
 }
 *,
-*:before,
-*:after {
+::before,
+::after {
     box-sizing: border-box;
 }
 
@@ -58,7 +58,7 @@ ul {
 
 [class*='header-subpaginas'] {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     position: relative;
     background: #f5f8fd url(../img/intro-bg.jpg) center top no-repeat;
     background-size: cover;
@@ -132,18 +132,18 @@ ul {
 }
 .header-inicio {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     position: relative;
     background: #f5f8fd url(../img/intro-bg.jpg) center top no-repeat;
     background-size: cover;
 }
-/*
+
 @media (min-width: 768px) {
     .header-inicio {
         height: 100vh;
     }
 }
-*/
+
 .header-sociales {
     display: flex;
     justify-content: center;
@@ -376,7 +376,7 @@ ul {
 /* MAIN*/
 
 .main {
-    padding: 5rem 0;
+    padding: 3rem 0;
 }
 
 @media (min-width: 768px) {
@@ -422,6 +422,10 @@ ul {
     transition: all 0.3s ease-in-out;
     transition-property: transform;
     transition-duration: 300ms;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .imagen-main1:hover {
     -webkit-transform: scale(1.03);
@@ -797,13 +801,13 @@ q {
     display: flex;
     flex-direction: column;
     padding: 0 1.5rem;
+    gap: 1rem;
 }
 
 @media (min-width: 768px) {
     .footer-grid {
         flex-direction: row;
         padding: 6rem 0 3rem 0;
-        /* gap: 8rem;*/
         gap: 19rem;
     }
 }
@@ -813,8 +817,8 @@ q {
 }
 @media (min-width: 768px) {
     .footer-widget {
-        padding: 0 1.5rem;
-        margin: 0 10rem 0 0;
+        padding: 5rem 3rem 0 0;
+        margin: 0 3rem 0 0;
     }
 }
 .footer-logo {
@@ -873,6 +877,9 @@ q {
     text-align: center;
 }
 
+.footer-centrar {
+    text-align: justify;
+}
 .copyright {
     text-align: center;
     padding: 3rem 0;
@@ -1466,7 +1473,7 @@ q {
 
 @media (min-width: 768px) {
     .formulario {
-        margin: 0 0 0 25rem;
+        margin: 0 0 0 2rem;
     }
 }
 
