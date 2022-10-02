@@ -1453,7 +1453,7 @@ q {
 .contacto-grid {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 @media (min-width: 768px) {
@@ -1473,7 +1473,8 @@ q {
 
 @media (min-width: 768px) {
     .formulario {
-        margin: 0 0 0 2rem;
+        /*margin: 0 0 0 2rem;*/
+        margin: 1rem 5rem 0 2rem;
     }
 }
 
