@@ -58,7 +58,7 @@ ul {
 
 [class*='header-subpaginas'] {
     width: 100%;
-    height: 50rem;
+    height: 55rem;
     position: relative;
     background: #f5f8fd url(../img/intro-bg.jpg) center top no-repeat;
     background-size: cover;
@@ -184,6 +184,27 @@ ul {
     line-height: 1px;
     display: inline-block;
 }
+
+.sociales-footer::before {
+    content: '';
+
+    padding: 1rem 2rem 0 1rem;
+    line-height: 1px;
+    display: inline-block;
+}
+
+@media (min-width: 576px) {
+    .sociales-footer::before {
+        padding: 10px 5px 3px 6px;
+    }
+}
+
+@media (min-width: 990px) {
+    .sociales-footer::before {
+        padding: 1rem 2rem 0 1rem;
+    }
+}
+
 /*
 @media (min-width: 768px) {
     .sociales-enlaces::before {
@@ -555,28 +576,20 @@ ul {
     font-size: 15px;
     background: #fff;
     border-radius: 2rem;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     align-items: center;
 }
-
+/*
 .swiper-slide {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+}*/
 
 /*SERVICIOS*/
 
@@ -895,7 +908,7 @@ q {
 }
 
 .footer-centrar {
-    text-align: justify;
+    text-align: center;
 }
 
 .copyright {
@@ -904,6 +917,11 @@ q {
     color: #535074;
     font-size: 15px;
     background-color: #fff;
+    font-family: var(--fuentePrincipal);
+}
+.copyright-span {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 /* SOBRE NOSOTROS */
@@ -1272,8 +1290,14 @@ q {
 
 .talleres-contenido {
     background-color: #f5f8fd;
-    padding: 5rem 0 4rem 0;
+    padding: 0;
     color: #444;
+}
+
+@media (min-width: 768px) {
+    .talleres-contenido {
+        padding: 5rem 0 4rem 0;
+    }
 }
 
 .talleres-grid {
