@@ -612,11 +612,12 @@ ul {
 .servicios-enlace {
     color: #111;
     font-family: var(--fuentePrincipal);
+    transition: all 0.3s ease;
 }
 
 .servicios-enlace:hover {
     color: #1bb1dc;
-    transition: 0.1s;
+    font-weight: bold;
 }
 
 .servicios-parrafo {
@@ -853,6 +854,13 @@ q {
 }
 .footer-logo {
     max-width: 30rem;
+    padding: 3rem 4rem 1rem 0;
+}
+
+@media (min-width: 768px) {
+    .footer-logo {
+        padding: 0;
+    }
 }
 
 .footer-company-about {
@@ -928,6 +936,7 @@ q {
 
 .nosotros-pilares {
     margin: 7rem 0 10rem 0;
+    padding: 2rem 1.5rem;
 }
 
 @media (min-width: 768px) {
