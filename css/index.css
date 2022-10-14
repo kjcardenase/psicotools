@@ -936,7 +936,6 @@ q {
 
 .nosotros-pilares {
     margin: 7rem 0 10rem 0;
-    padding: 2rem 1.5rem;
 }
 
 @media (min-width: 768px) {
@@ -991,11 +990,13 @@ q {
 
 .pilares-contenido {
     margin: 2rem 0 0 0;
+    padding: 1.5rem;
 }
 
 @media (min-width: 768px) {
     .pilares-contenido {
         margin: 4rem 0 0 0;
+        padding: 0;
     }
 }
 
