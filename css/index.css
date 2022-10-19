@@ -1883,3 +1883,32 @@ About
 .justificacion {
     text-align: justify;
 }
+/**** SCROLL ******/
+.scroll-top-btn {
+    position: fixed;
+    z-index: 999;
+    bottom: 1vh;
+    right: 0%calc (4.25rem +1w);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: var(--secundario);
+    color: white;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    margin: 0 0 0.5rem 1rem;
+}
+
+.scroll-top-btn:hover {
+    background-color: var(--primario);
+    color: white;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
