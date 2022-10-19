@@ -1888,7 +1888,7 @@ About
     position: fixed;
     z-index: 999;
     bottom: 1vh;
-    right: 0%calc (4.25rem +1w);
+
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
