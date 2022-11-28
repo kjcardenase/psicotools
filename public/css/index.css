@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Banks&Miles';
-    src: url('../public/fonts/Banks&MilesSingleLine.ttf');
+    src: url('/public/fonts/Banks&MilesSingleLine.ttf');
 }
 
 html {
@@ -65,7 +65,7 @@ ul {
     width: 100%;
     height: 55rem;
     position: relative;
-    background: #f5f8fd url(..public/images/intro-bg.jpg) center top no-repeat;
+    background: #f5f8fd url(/public/images/intro-bg.jpg) center top no-repeat;
     background-size: cover;
 }
 
@@ -144,7 +144,7 @@ ul {
     width: 100%;
     height: 110rem;
     position: relative;
-    background: #f5f8fd url(..public/images/intro-bg.jpg) center top no-repeat;
+    background: #f5f8fd url(/public/images/intro-bg.jpg) center top no-repeat;
     background-size: cover;
 }
 
@@ -217,24 +217,24 @@ ul {
     }
 }*/
 .facebook {
-    background-image: url(public/images/facebook-brands.svg);
+    background-image: url(/public/images/facebook-brands.svg);
     background-repeat: no-repeat;
 }
 .twitter {
-    background-image: url(public/images/twitter-brands.svg);
+    background-image: url(/public/images/twitter-brands.svg);
     background-repeat: no-repeat;
 }
 .instagram {
-    background-image: url(public/images/instagram-brands.svg);
+    background-image: url(/public/images/instagram-brands.svg);
     background-repeat: no-repeat;
 }
 .youtube {
-    background-image: url(public/images/youtube-brands.svg);
+    background-image: url(/public/images/youtube-brands.svg);
     background-repeat: no-repeat;
 }
 
 .whatsapp {
-    background-image: url(public/images/whatsapp-brands.svg);
+    background-image: url(/public/images/whatsapp-brands.svg);
     background-repeat: no-repeat;
 }
 .sociales-accesibles {
@@ -1509,7 +1509,7 @@ q {
     width: 100%;
     height: 130vh;
     position: relative;
-    background: #f5f8fd url(..public/images/intro-bg.jpg) center top no-repeat;
+    background: #f5f8fd url(/public/images/intro-bg.jpg) center top no-repeat;
     background-size: cover;
     padding: 5rem 0;
 }
@@ -1668,7 +1668,7 @@ q {
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background-image: url(..public/images/telefono.png);
+    background-image: url(/public/images/telefono.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1680,7 +1680,7 @@ q {
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background-image: url(..public/images/ubicacion.ico);
+    background-image: url(/public/images/ubicacion.ico);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1691,7 +1691,7 @@ q {
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background-image: url(..public/images/mensaje.png);
+    background-image: url(/public/images/mensaje.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
