@@ -1,3 +1,3 @@
 # Psicotools
 
-## link: https://psicotools-pv2o.vercel.app/
+## link: https://kjcardenase.github.io/psicotools/index.html
