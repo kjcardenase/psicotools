@@ -1126,7 +1126,7 @@ q {
 }
 
 .equipo-imagen:nth-child(1) {
-    background-image: url(..public/images/directivo.jpg);
+    background-image: url(/public/images/directivo.jpg);
     background-repeat: no-repeat;
     aspect-ratio: 22/21;
     background-size: cover;
@@ -1136,7 +1136,7 @@ q {
 }
 
 .equipo-imagen:nth-child(2) {
-    background-image: url(..public/images/psicologos.jpg);
+    background-image: url(/public/images/psicologos.jpg);
     background-repeat: no-repeat;
     aspect-ratio: 22/21;
     background-size: cover;
@@ -1145,7 +1145,7 @@ q {
     justify-content: end;
 }
 .equipo-imagen:nth-child(3) {
-    background-image: url(..public/images/administrativo.jpg);
+    background-image: url(/public/images/administrativo.jpg);
     background-repeat: no-repeat;
     aspect-ratio: 22/21;
     background-size: cover;
@@ -1154,7 +1154,7 @@ q {
     justify-content: end;
 }
 .equipo-imagen:nth-child(4) {
-    background-image: url(..public/images/comunicaciones.jpg);
+    background-image: url(/public/images/comunicaciones.jpg);
     background-repeat: no-repeat;
     aspect-ratio: 22/21;
     background-size: cover;
