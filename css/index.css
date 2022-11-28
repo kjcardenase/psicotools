@@ -3,7 +3,12 @@
     --secundario: #1bb1dc;
     --separacion: 5rem;
 
-    --fuentePrincipal: 'Klee One', 'Sofadi One';
+    /* --fuentePrincipal: 'Klee One', 'Sofadi One';*/
+}
+
+@font-face {
+    font-family: 'Banks&Miles';
+    src: url('/public/fonts/Banks&MilesSingleLine.ttf');
 }
 
 html {
@@ -23,7 +28,7 @@ body {
 
 p {
     font-size: 1.8rem;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
 }
 .contenedor {
     width: 95%;
@@ -37,7 +42,7 @@ img {
 a {
     text-decoration: none;
     color: var(--primario);
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
 }
 
 h1,
@@ -45,7 +50,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
     font-weight: 600;
 }
 
@@ -53,7 +58,7 @@ ul {
     padding: 0;
     list-style: none;
     margin: 0;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
 }
 
 [class*='header-subpaginas'] {
@@ -71,7 +76,7 @@ ul {
 }
 
 [class*='--subpaginas'] {
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
     font-weight: 700;
     margin: 5rem 5rem 0;
     padding: 0;
@@ -102,7 +107,7 @@ ul {
     text-align: center;
     font-weight: 700;
     position: relative;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
     margin: 0 auto;
     padding: 0;
     max-width: 75rem;
@@ -343,7 +348,7 @@ ul {
 }
 
 .titulo-principal {
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
     font-weight: 700;
     margin: 0 auto;
     padding: 0;
@@ -378,7 +383,7 @@ ul {
     }
 }
 .enlace-principal {
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -502,7 +507,7 @@ ul {
 
 .main-textoh2 {
     color: #413e66;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
     font-weight: 700;
 }
 
@@ -523,12 +528,12 @@ ul {
 .main-ul {
     padding-bottom: 3rem;
     line-height: 1.5;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
     color: #444;
 }
 
 .enlace-main {
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -580,7 +585,7 @@ ul {
     justify-content: center;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /*object-fit: cover;*/
     align-items: center;
 }
 /*
@@ -611,7 +616,7 @@ ul {
 
 .servicios-enlace {
     color: #111;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
     transition: all 0.3s ease;
 }
 
@@ -625,7 +630,7 @@ ul {
     line-height: 23px;
     margin-bottom: 0;
     text-align: justify;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
 }
 
 .servicios-enlaces-mas {
@@ -718,7 +723,7 @@ ul {
     text-align: center;
     font-weight: 700;
     position: relative;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
     text-align: center;
 }
 
@@ -729,7 +734,7 @@ ul {
         text-align: center;
         font-weight: 700;
         position: relative;
-        font-family: var(--fuentePrincipal);
+        font-family: 'Banks&Miles';
         text-align: center;
         padding: 20px;
     }
@@ -925,7 +930,7 @@ q {
     color: #535074;
     font-size: 15px;
     background-color: #fff;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
 }
 .copyright-span {
     font-size: 18px;
@@ -1350,7 +1355,7 @@ q {
 
 .talleres-enlace {
     color: #111;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
 }
 
 .talleres-enlace:hover {
@@ -1363,7 +1368,7 @@ q {
     line-height: 28px;
     margin-bottom: 0;
     text-align: left;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
 }
 
 .talleres-enlaces-mas {
@@ -1552,7 +1557,7 @@ q {
     font-weight: 700;
     margin: 0 auto 2rem auto;
     font-size: 3rem;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
 }
 
 .campo input {
@@ -1570,7 +1575,7 @@ q {
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     margin-bottom: 1.5rem;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
 }
 
 .campo textarea {
@@ -1588,7 +1593,7 @@ q {
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     margin-bottom: 1.5rem;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
 }
 
 .campo select {
@@ -1606,7 +1611,7 @@ q {
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     margin-bottom: 1.5rem;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
 }
 
 .campo-btn {
@@ -1614,7 +1619,7 @@ q {
 }
 
 .btn-uno {
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1697,7 +1702,7 @@ q {
 ////////////provar*/
 
 .btn {
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1819,7 +1824,7 @@ About
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
     gap: 2rem;
 }
 
@@ -1863,7 +1868,7 @@ About
     color: #fff;
     background-color: #0a98c0;
     border-radius: 0.25rem;
-    font-family: var(--fuentePrincipal);
+    font-family: 'Banks&Miles';
 
     margin: 1rem;
 }
