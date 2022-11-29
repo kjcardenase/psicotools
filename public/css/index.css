@@ -65,7 +65,7 @@ ul {
     width: 100%;
     height: 55rem;
     position: relative;
-    background: #f5f8fd url(public/images/intro-bg.jpg) center top no-repeat;
+    background: #f5f8fd url('/public/images/intro-bg.jpg') center top no-repeat;
     background-size: cover;
 }
 
@@ -144,7 +144,7 @@ ul {
     width: 100%;
     height: 110rem;
     position: relative;
-    background: #f5f8fd url(public/images/intro-bg.jpg) center top no-repeat;
+    background: #f5f8fd url('/public/images/intro-bg.jpg') center top no-repeat;
     background-size: cover;
 }
 
