@@ -65,7 +65,7 @@ ul {
     width: 100%;
     height: 55rem;
     position: relative;
-    background: url('/public/images/intro-bg.jpg') center top no-repeat;
+    background: url('../images/intro-bg.jpg') center top no-repeat;
     background-color: #f5f8fd;
     background-size: cover;
 }
@@ -145,7 +145,7 @@ ul {
     width: 100%;
     height: 110rem;
     position: relative;
-    background: url('/public/images/intro-bg.jpg') center top no-repeat;
+    background: url('../images/intro-bg.jpg') center top no-repeat;
     background-size: cover;
     background-color: #f5f8fd;
 }
@@ -219,24 +219,24 @@ ul {
     }
 }*/
 .facebook {
-    background-image: url('/public/images/facebook-brands.svg');
+    background-image: url('../images/facebook-brands.svg');
     background-repeat: no-repeat;
 }
 .twitter {
-    background-image: url('/public/images/twitter-brands.svg');
+    background-image: url('../images/twitter-brands.svg');
     background-repeat: no-repeat;
 }
 .instagram {
-    background-image: url('/public/images/instagram-brands.svg');
+    background-image: url('../images/instagram-brands.svg');
     background-repeat: no-repeat;
 }
 .youtube {
-    background-image: url('/public/images/youtube-brands.svg');
+    background-image: url('../images/youtube-brands.svg');
     background-repeat: no-repeat;
 }
 
 .whatsapp {
-    background-image: url('/public/images/whatsapp-brands.svg');
+    background-image: url('../images/whatsapp-brands.svg');
     background-repeat: no-repeat;
 }
 .sociales-accesibles {
@@ -1128,7 +1128,7 @@ q {
 }
 
 .equipo-imagen:nth-child(1) {
-    background-image: url(/public/images/directivo.jpg);
+    background-image: url(../images/directivo.jpg);
     background-repeat: no-repeat;
     aspect-ratio: 22/21;
     background-size: cover;
@@ -1138,7 +1138,7 @@ q {
 }
 
 .equipo-imagen:nth-child(2) {
-    background-image: url(/public/images/psicologos.jpg);
+    background-image: url(../images/psicologos.jpg);
     background-repeat: no-repeat;
     aspect-ratio: 22/21;
     background-size: cover;
@@ -1147,7 +1147,7 @@ q {
     justify-content: end;
 }
 .equipo-imagen:nth-child(3) {
-    background-image: url(/public/images/administrativo.jpg);
+    background-image: url(../images/administrativo.jpg);
     background-repeat: no-repeat;
     aspect-ratio: 22/21;
     background-size: cover;
@@ -1156,7 +1156,7 @@ q {
     justify-content: end;
 }
 .equipo-imagen:nth-child(4) {
-    background-image: url(/public/images/comunicaciones.jpg);
+    background-image: url(../images/comunicaciones.jpg);
     background-repeat: no-repeat;
     aspect-ratio: 22/21;
     background-size: cover;
@@ -1511,7 +1511,7 @@ q {
     width: 100%;
     height: 130vh;
     position: relative;
-    background: #f5f8fd url(/public/images/intro-bg.jpg) center top no-repeat;
+    background: #f5f8fd url(../images/intro-bg.jpg) center top no-repeat;
     background-size: cover;
     padding: 5rem 0;
 }
@@ -1670,7 +1670,7 @@ q {
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background-image: url(/public/images/telefono.png);
+    background-image: url(../images/telefono.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1682,7 +1682,7 @@ q {
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background-image: url(/public/images/ubicacion.ico);
+    background-image: url(../images/ubicacion.ico);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1693,7 +1693,7 @@ q {
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background-image: url(/public/images/mensaje.png);
+    background-image: url(../images/mensaje.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
