@@ -58,16 +58,16 @@
             <div class="contenedor">
                 <div class="contacto-contenido">
                     <div class="contacto-grid">
-                        <form class="formulario">
+                        <form class="formulario" action="https://formspree.io/f/xwkzdpwz" method="POST">
                             <legend>Inscripción Taller</legend>
                             <div class="campo">
-                                <input type="text" id="nombre" placeholder="Nombre y apellido">
+                                <input type="text" id="nombre" placeholder="Nombre y apellido" name="nombres">
                             </div>
                             <div class="campo">
-                                <input type="number" id="edad" placeholder="Edad">
+                                <input type="number" id="edad" placeholder="Edad" name="edad">
                             </div>
                             <div class="campo">
-                                <select>
+                                <select name="taller">
                                     <option value=" disabled selected">Selecciona Taller</option>
                                     <option value="emocionaditos">Emocionaditos</option>
                                     <option value="aprende conmigo">Aprende Conmigo</option>
@@ -77,10 +77,10 @@
                                 </select>
                             </div>
                             <div class="campo">
-                                <input type="text" id="email" placeholder="Email">
+                                <input type="text" id="email" placeholder="Email" name="email">
                             </div>
                             <div class="campo">
-                                <input type="text" id="telefono" placeholder="Teléfono">
+                                <input type="text" id="telefono" placeholder="Teléfono" name="telefono">
                             </div>
                             <div class="campo-btn">
                                 <input type="submit" value="Incribirme" class="btn-uno">

@@ -58,19 +58,20 @@
             <div class="contenedor">
                 <div class="contacto-contenido">
                     <div class="contacto-grid">
-                        <form class="formulario">
+                        <form class="formulario" action="https://formspree.io/f/xwkzdpwz" method="POST">
                             <legend>Contáctenos</legend>
                             <div class="campo">
-                                <input type="text" id="nombre" placeholder="Nombre">
+                                <input type="text" id="nombre" placeholder="Nombre" name="nombre">
                             </div>
                             <div class="campo">
-                                <input type="text" id="email" placeholder="Email">
+                                <input type="text" id="email" placeholder="Email" name="email">
                             </div>
                             <div class="campo">
-                                <input type="text" id="telefono" placeholder="Teléfono">
+                                <input type="text" id="telefono" placeholder="Teléfono" name="telefono">
                             </div>
                             <div class="campo">
-                                <textarea id="mesaje" cols="30" rows="3" placeholder="Mensaje"></textarea>
+                                <textarea id="mesaje" cols="30" rows="3" placeholder="Mensaje"
+                                  name="mensaje"></textarea>
                             </div>
                             <div class="campo-btn">
                                 <input type="submit" value="Enviar Mensaje" class="btn-uno">
