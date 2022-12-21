@@ -849,16 +849,21 @@ q {
         gap: 19rem;
     }
 }
+@media (max-width: 1024px) {
+    .footer-grid {
+        gap: 10rem;
+    }
+}
 
 .footer-widget {
     margin-bottom: 3rem;
 }
 @media (min-width: 768px) {
     .footer-widget {
-        padding: 5rem 3rem 0 0;
-        margin: 0 3rem 0 0;
+        margin: 5rem 0 0 0;
     }
 }
+
 .footer-logo {
     max-width: 30rem;
     padding: 3rem 4rem 1rem 0;
@@ -920,6 +925,13 @@ q {
 .footer-icons {
     margin: 5rem 0 0 0;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer-icons {
+        margin: 5rem -6rem;
+        text-align: center;
+    }
 }
 
 .footer-centrar {
