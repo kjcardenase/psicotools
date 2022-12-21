@@ -382,6 +382,13 @@ ul {
     .imagen-contenido {
         width: 40rem;
         grid-column: 2 / 3;
+        margin-left: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .imagen-contenido {
+        margin-left: 19rem;
     }
 }
 .enlace-principal {
