@@ -222,8 +222,8 @@ ul {
     background-image: url('../images/facebook-brands.svg');
     background-repeat: no-repeat;
 }
-.twitter {
-    background-image: url('../images/twitter-brands.svg');
+.tiktok {
+    background-image: url('../images/tiktok.svg');
     background-repeat: no-repeat;
 }
 .instagram {
@@ -386,6 +386,12 @@ ul {
     }
 }
 
+@media (min-width: 992px) {
+    .imagen-contenido {
+        margin-left: 4rem;
+    }
+}
+
 @media (min-width: 1024px) {
     .imagen-contenido {
         margin-left: 19rem;
@@ -453,7 +459,8 @@ ul {
 }
 @media (min-width: 990px) {
     .main-imagen {
-        padding: 3rem 10rem 2rem 3rem;
+        /* padding: 3rem 10rem 2rem 3rem; */
+        padding: 3rem 8rem 2rem 1rem;
     }
 }
 .main-imagenBorde {
@@ -507,7 +514,7 @@ ul {
 }
 
 .contenido-texto {
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .main-texto {
@@ -518,6 +525,8 @@ ul {
     color: #413e66;
     font-family: 'Banks&Miles';
     font-weight: 700;
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
 }
 
 .main-textoh3 {
@@ -580,8 +589,8 @@ ul {
 
 @media (min-width: 768px) {
     .swiper {
-        width: 80%;
-        height: 80%;
+        width: 70%;
+        height: 70%;
     }
 }
 
@@ -853,7 +862,7 @@ q {
     .footer-grid {
         flex-direction: row;
         padding: 6rem 0 3rem 0;
-        gap: 19rem;
+        gap: 18rem;
     }
 }
 @media (max-width: 1024px) {
@@ -1528,7 +1537,7 @@ q {
 
 .contacto {
     width: 100%;
-    height: 130vh;
+    height: 100%;
     position: relative;
     background: #f5f8fd url(../images/intro-bg.jpg) center top no-repeat;
     background-size: cover;
@@ -1536,7 +1545,7 @@ q {
 }
 @media (min-width: 768px) {
     .contacto {
-        height: 60vh;
+        height: 60%;
     }
 }
 
@@ -1717,6 +1726,16 @@ q {
     background-position: center center;
     background-size: contain;
     margin-right: 1rem;
+}
+
+.texto-span-gracias {
+    color: var(--secundario);
+    font-size: 5rem;
+}
+
+.texto-gracias {
+    font-size: 2.5rem;
+    justify-content: space-between;
 }
 
 /* 
